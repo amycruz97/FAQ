@@ -172,30 +172,10 @@
 
 const FAQ = [{
 
-        "question": "	Why do we request for your BVN?",
+        "question": "Why do we request for your BVN?",
         "answer": `
         <p>
         Your BVN is completely secure and we only need it for identity verification. Your BVN does not give us access to your financial data.
-        </p>
-        `
-    },
-    {
-        "question": "BVN and mobile number mismatch.",
-        "answer": `
-        <p>
-            This means that the number entered is not linked to the BVN. However, this can be resolved by availing us of the following; (BVN print out from the Bank, and the new mobile number). Alternatively, The customer can also visit the Bank for a BVN update.
-        </p>
-        `
-    },
-    {
-        "question": "	How do I reset my Password?",
-        "answer": `
-        <p>
-        Tap on the Forgot password button, a pop-up will display requesting if you would reset using Email of WhatsApp; If you select Email, you will be prompted to enter an email address, If you decide to reset with WhatsApp, RESET text will automatically prefill into the text box, all you needed to do is to tap send. 
-        Note - Reset link can only be delivered to the email that is tied to the account. Please check           your junk or spam folder of your email for the reset link.
-        (ZEE- 09060003933) will only send reset link to the mobile number that tied to the account.
-        
-            
         </p>
         `
     },
@@ -204,19 +184,45 @@ const FAQ = [{
         "question": "I did not receive the OTP (one time password) sent to my phone.",
         "answer": `
         <p>
-        -	Please note that OTP can only be delivered to the mobile number tied the BVN.
-        -	You can also verify your account using WhatsApp, this is available only for new customers’ (This can be achieved by sending VERIFY to 09060003933 on WhatsApp)
+
+            <ul>
+                <li>Please note that OTP can only be delivered to the mobile number tied the BVN.</li>
+                <li>You can also verify your account using WhatsApp, this is available only for new customers’</li>
+            </ul>
+            <br>
+            <span style="margin-left:20px"> (This can be achieved by sending VERIFY to 09060003933 on WhatsApp)</span>
 
         </p>
         `
     },
     {
+        "question": "BVN and mobile number mismatch.",
+        "answer": `
+        <p>
+            This means that the number entered is not linked to the BVN. However, this can be resolved by availing us of the following; (BVN print out from the Bank, and the new mobile number).<br>
+            Alternatively, The customer can also visit the Bank for a BVN update.
+        </p>
+        `
+    },
+    {
+        "question": "	How do I reset my Password?",
+        "answer": `
+        <p>
+            Tap on the Forgot password button, a pop-up will display requesting if you would reset using Email of WhatsApp; If you select Email, you will be prompted to enter an email address,<br>
+            If you decide to reset with WhatsApp, RESET text will automatically prefill into the text box, all you needed to do is to tap send. <br>
+            <span style="font-weight:bold; ">Note </span>- Reset link can only be delivered to the email that is tied to the account. Please check your junk or spam folder of your email for the reset link. <br>
+            (ZEE- 09060003933) will only send reset link to the mobile number that tied to the account.
+        </p>
+        `
+    },
+
+    {
         "question": "How do I know that my loan has been approved?",
         "answer": `
         <p>
-        If your dashboard displays that “Your loan is currently being processed”, for more than 24hrs, please send an email to help@moneypal.ng
-         Note - MoneyPal Nano Loan circle( Loan application – Loan approval - Disbursement ) does               -        not exceed 10 minutes.
-
+        If your dashboard displays that “Your loan is currently being processed”, for more than 24hrs, please send an email to help@moneypal.ng.<br>
+        <span style="font-weight:bold;">Note</span> - MoneyPal Nano Loan circle( Loan application – Loan approval - Disbursement ) does  not exceed 10 minutes.
+    
         </p>
         `
     },
@@ -245,11 +251,11 @@ const FAQ = [{
         `
     },
     {
-        "question": "Successful loan repayments overtime increases the amount you can access with a possible longer repayment tenure.",
+        "question": "Why we request you to add your card?",
         "answer": `
         <p>
-        This is an automated process and in a bid to make repayment process seamless, we request for the customer’s card, and this will enable us charge your bank the exact amount on the due date instead of going to the bank to pay over the counter or engaging in a bank transfer.
-        Note – We do not store your card details, your card information is stored in a PCI complaint external card vault provided by Flutterwave
+        This is an automated process and in a bid to make repayment process seamless, we request for the customer’s card, and this will enable us charge your bank  the exact amount <br> on the due date instead of going to the bankto pay over the counter or engaging in a bank transfer.<br>
+        <span style="font-weight:bold;">Note </span>– We do not store your card details, your card information is stored in a PCI complaint external card vault provided by Flutterwave
 
         </p>
         `
@@ -258,14 +264,16 @@ const FAQ = [{
         "question": "Possible Error while Adding Your Card.",
         "answer": `
         <p>
-        -	OTP has been validated – This simply means that you had earlier used the OTP and cannot be re-used.
-        -	Server error, we cannot connect to the server at the moment – Please check your internet and try again.
-        -	Do not honor- We would advise that you visit your bank if you are seeing this error or try using another bank card.
-        -	Stolen card – We advise that you should visit your bank at this time. 
-        -	Card will expire in 3 months or less -  Please be informed that we do not accept cards that will expire in less than 3 months.
-        -	Card not provisioned on token platform – We advise that you visit your bank should you see an error message like this.
-        -	Sorry, we could not connect to your bank at the moment – Please, write us an email at help@moneypal.ng
-
+            <ul>
+                <li>OTP has been validated – This simply means that you had earlier used the OTP and cannot be re-used.</li>
+                <li>Server error, we cannot connect to the server at the moment – Please check your internet and try again.</li>
+                <li>Do not honor- We would advise that you visit your bank if you are seeing this error or try using another bank card.</li>
+                <li>Stolen card – We advise that you should visit your bank at this time. </li>
+                <li>Card will expire in 3 months or less -  Please be informed that we do not accept cards that will expire in less than 3 months.</li>
+                <li>Card not provisioned on token platform – We advise that you visit your bank should you see an error message like this.</li>
+                <li>Sorry, we could not connect to your bank at the moment – Please, write us an email at help@moneypal.ng</li>
+            </ul>
+        
         </p>
         `
     },
@@ -282,10 +290,13 @@ const FAQ = [{
         "answer": `
         <p>
         We advise that you should avail us of the following so we can help you further;
-        •	The debit evidence or
-        •	The debit amount and transaction date,
-        •	The first 6 and the last 4 digit of the card that was charged.
-        Note – We will not and never request for your full card details.
+        <ul>
+            <li>The debit evidence or</li>
+            <li>The debit amount and transaction date</li>
+            <li>The first 6 and the last 4 digit of the card that was charged.</li>
+        </ul>
+    
+        <span style="font-weight: bold;">Note</span> – We will not and never request for your full card details.
         Please disregard any person or group of people acting on behalf of Zedvance Finance Limited, requesting for your full card details
 
         </p>
@@ -327,7 +338,8 @@ var accordionHTML = ""
 
 FAQ.forEach((question) => {
     accordionHTML += `
-    <button class="accordion">${question.question}</button>
+  
+  <button class="accordion">${question.question}</button>
     <div class="panel">
         ${question.answer}
     </div>
@@ -355,7 +367,7 @@ document.getElementById("searchBtn").addEventListener("click", function(e) {
     FAQ.forEach((question) => {
             if (question.question.toLowerCase().includes(search.toLowerCase())) {
                 accordionHTML += `
-        <button class="accordion">${question.question}</button>
+        <button class="accordion">${question.question}</button> 
         <div class="panel">
             ${question.answer}
         </div>`
